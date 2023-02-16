@@ -16,3 +16,42 @@ h5{
 h6{
     color: deeppink;
 }
+button{
+    color:mediumvioletred;
+    background-color: bisque;
+}
+.header > {
+    margin-top: 1px;
+    margin-left: 100px;
+    margin-right: 20px;
+    font-size:0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header>*{
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 45px;
+}
+li{
+    display: inline;
+}
+.logo{
+    height: 100%;
+}
+.navbar{
+    text-align: left;
+    color: brown;
+    font-weight: 500;
+}
+.actions{
+text-align: left;
+font-size: 14px;
+}
+
+.actions * {
+    margin-left: 15px;
+    margin-right: 10px;
+
+}
