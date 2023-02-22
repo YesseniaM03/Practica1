@@ -66,4 +66,21 @@ font-size: 14px;
 }
 .features{
     display: grid;
+    grid-template-columns: repeat(2, 300px); /*se agregan 2 columnas de 300px*/
+    grid-template-rows: repeat(2, 330px); 
+}
+article{
+    background-color: blue (31, 181, 131);
+    margin: 10px;
+    width: 40%;
+    height: 50px;
+}
+.features .features-card{
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: burlywood;
+    border: 2px seagreen;
+    display: flex;
+    align-items: center;
 }
