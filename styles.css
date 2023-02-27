@@ -153,3 +153,23 @@ body{
 @media (min-width: 1200px) {
   
 }
+article{
+    align-items: center;
+    background-color:  burlywood;
+}
+h1{
+    align-items: center;
+    border: 2px blueviolet;
+}
+.p{
+    align-items: center;
+    border: 2px blueviolet;
+}
+button{
+    color:black;
+    background-color: darkgray;
+}
+.feature .feature-card .feature-content{
+    padding: 30px 20px 40px 40px;
+    flex: 1;
+}
