@@ -173,3 +173,39 @@ button{
     padding: 30px 20px 40px 40px;
     flex: 1;
 }
+.features .features-card .features-content {
+    font-family: 'Avenir Next LT Pro';
+    font-weight: bold;
+    border: 5px outset rgb(204, 141, 170);   
+    color: #4b0754;
+    background-color: rgb(180, 0, 111);
+    text-align: center;
+    }
+
+h4{
+    color: white;
+}
+p{
+
+    color: white;
+}
+.button {
+    color: rgb(251, 244, 244);
+    background-color: rgb(175, 6, 6);
+}
+
+.header{
+    margin-top: 1px;
+    margin-left: 100px;
+    margin-right: 20px;
+    font-size: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 45px;
+}
