@@ -123,40 +123,8 @@ font-size: 14px;
     margin-top: 0;
     height: 100%;
 }
-@media (max-width: 575px){
-    .narvar, .actions{
-        display: none;
-    }
-h1{
-    font-size:30px ;
-}
-main{
-    margin-top: 130px;
-}
-body{
-
-}
-/** dispositivos pequeños en vista landscape (horizontal) */
-@media (min-width: 576px) and (max-width: 767px) {
-  
-}
-
-/** dispositivos medianos (tablets) */
-@media (min-width: 768px) and (max-width: 991px) {
-  
-}
-
-/** dispositivos grandes (desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
-  
-}
-
-/** dispositivos extra grandes (monitores grandes, tvs) */
-@media (min-width: 1200px) {
-  }
-
-  /* TAREA*/
-  .features{
+ /* TAREA*/
+ .features{
     background-color:lightpink;
     display: grid;
     padding: 5% 10%;
@@ -213,39 +181,9 @@ body{
     margin-top: 0;
     height: 100%;
 }
-@media (max-width: 575px){
-    .narvar, .actions{
-        display: none;
-    }
-h1{
-    font-size:30px ;
-}
-main{
-    margin-top: 130px;
-}
-body{
 
-}
-/** dispositivos pequeños en vista landscape (horizontal) */
-@media (min-width: 576px) and (max-width: 767px) {
-  
-}
-
-/** dispositivos medianos (tablets) */
-@media (min-width: 768px) and (max-width: 991px) {
-  
-}
-
-/** dispositivos grandes (desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
-  
-}
-
-/** dispositivos extra grandes (monitores grandes, tvs) */
-@media (min-width: 1200px) {
-  }
-
-  article{
+/*EXAMEN VANESA*/
+article{
     align-items: center;
     background-color:  burlywood;
 }
@@ -302,3 +240,40 @@ p{
     vertical-align: middle;
     line-height: 45px;
 }
+
+
+
+@media (max-width: 575px){
+    .narvar, .actions{
+        display: none;
+    }
+h1{
+    font-size:30px ;
+}
+main{
+    margin-top: 130px;
+}
+body{
+
+}
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  }
+
+  
+  
