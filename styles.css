@@ -21,54 +21,56 @@ button{
     background-color: bisque;
 }
 .header > {
-    margin-top: 1px;
-    margin-left: 100px;
-    margin-right: 20px;
+    margin-top: 1px; /*margenes de arriba*/
+    margin-left: 100px; /*margen de la izquierda*/
+    margin-right: 20px; /* margen de la derecha*/
     font-size:0;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.header>*{
-    display: inline-block;
-    font-size: 16px;
-    height: 100%;
-    vertical-align: middle;
-    line-height: 45px;
+.header>*{ /* tiene asterisco llama a todos los elementos de la clase*/
+    display: inline-block; /* hace que se muestren todos arriba*/
+    font-size: 16px; /* Es el tamaño de la fuente y lo aplica en general*/
+    height: 100%; /*Es la altura que va a tener el bloque del header*/
+    vertical-align: middle; /*Para alienarlo a la mitad*/
+    line-height: 45px; /* Es un margen*/
 }
 li{
-    display: inline;
+    display: inline; /*mandamos llamar la etiqueta de lista, para que muestre un elemento a lado de otro*/
 }
 .logo{
-    height: 100%;
+    height: 100%; /*La altura del logo*/
 }
 .navbar{
-    text-align: left;
-    color: brown;
-    font-weight: 500;
+    text-align: left; /*Que el texto se alinie a la izquierda*/
+    color: brown; /*Solo para el texto*/
+    font-weight: 500; 
 }
-.actions{
+.actions{ /*Sign in*/
 text-align: left;
 font-size: 14px;
 }
 
-.actions * {
-    margin-left: 15px;
-    margin-right: 10px;
+.actions * { /*button*/
+    margin-left: 15px; /*izquierda*/
+    margin-right: 10px; /*Deerecha*/
 
 }
 .publish h3{
     color: blueviolet;
 }
 .video{
-    display: flex;
+    display: flex; /*flex para mostrarse en linea*/
     width: 75%;
     margin-left: 50px;
+    margin-bottom: 50px; /*margen de abajo*/  /*margin-top= margen de arriba*/
+    /*margin: ;   todos los margenes*/
 
 }
 .feature{
     background-color: aquamarine;
     display: grid;
     padding: 5% 10%;
-    grid-template-columns: repeat(2, 500px); /*se agregan 2 columnas de 300px*/
+    grid-template-columns: repeat(2, 600px); /*se agregan 2 columnas de 300px*/
     grid-template-rows: repeat(2, 330px); 
 }
 /*article{
@@ -81,10 +83,10 @@ font-size: 14px;
     margin-left: 15px;
     margin-right: 15px;
     background-color: burlywood;
-    border: 2px seagreen;
+    border: 5px solid red;
     display: flex;
     align-items: center;
-    overflow: hidden;
+    overflow: hidden; /*no se salga del borde*/
 }
 .feature .feature-card .feature-content{
     padding: 30px 20px 40px 40px;
@@ -94,27 +96,27 @@ font-size: 14px;
     margin-bottom: 1rem;
 }
 .feature .feature-card .feature-content img{
-    width: 50px;
+    width: 70px;
 }
 .feature .feature-card .feature-content h3{
-    font-size: 24px;
+    font-size: 30px;
     color: darkblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .feature .feature-card .feature-content p{
     font-size: 16px;
-    color: darkgreen;
+    color: purple;
 }
 .feature .feature-card .feature-content a{
     font-size: 16px;
     color: darkgreen;
 }
 .feature .feature-card .feature-image{
-    flex: 1;
-    width: 40%;
+    flex: 2; /*la posición dentro del contenedor*/
+    width: 50%;
     position: relative;
     right: 100px;
-    height: 80%;
+    height: 85%;
 }
 .feature .feature-card .feature-image figure, 
 .feature .feature-card .feature-image img{
@@ -151,9 +153,99 @@ body{
 
 /** dispositivos extra grandes (monitores grandes, tvs) */
 @media (min-width: 1200px) {
+  }
+
+  /* TAREA*/
+  .features{
+    background-color:lightpink;
+    display: grid;
+    padding: 5% 10%;
+    grid-template-columns: repeat(2, 600px); /*se agregan 2 columnas de 300px*/
+    grid-template-rows: repeat(2, 330px); 
+}
+  button{
+    color: blueviolet;
+    background-color:darkkhaki ;
+  }
+  .features .features-card{
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: plum;
+    border: 5px solid purple;
+    display: flex;
+    align-items: center;
+    overflow: hidden; /*no se salga del borde*/
+}
+.features .features-card .features-content{
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+}
+.features .features-card .features-content >* {
+    margin-bottom: 1rem;
+}
+.features .features-card .features-content img{
+    width: 70px;
+}
+.features .features-card .features-content h1,
+.features .features-card .features-content h2{
+    font-size: 30px;
+    color: darkblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.features .features-card .features-content p{
+    font-size: 16px;
+    color: purple;
+}
+.features .features-card .features-content a{
+    font-size: 16px;
+    color: darkgreen;
+}
+.features .features-card .features-image{
+    flex: 2; /*la posición dentro del contenedor*/
+    width: 50%;
+    position: relative;
+    right: 100px;
+    height: 85%;
+}
+.features .features-card .features-image figure, 
+.features .features-card .features-image img{
+    margin-top: 0;
+    height: 100%;
+}
+@media (max-width: 575px){
+    .narvar, .actions{
+        display: none;
+    }
+h1{
+    font-size:30px ;
+}
+main{
+    margin-top: 130px;
+}
+body{
+
+}
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
   
 }
-article{
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  }
+
+  article{
     align-items: center;
     background-color:  burlywood;
 }
@@ -173,6 +265,7 @@ button{
     padding: 30px 20px 40px 40px;
     flex: 1;
 }
+
 .features .features-card .features-content {
     font-family: 'Avenir Next LT Pro';
     font-weight: bold;
