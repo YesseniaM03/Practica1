@@ -183,6 +183,13 @@ font-size: 14px;
 }
 
 /*EXAMEN VANESA*/
+.features{
+    background-color:lightpink;
+    display: grid;
+    padding: 5% 10%;
+    grid-template-columns: repeat(1, 600px); /*se agregan 2 columnas de 300px*/
+    grid-template-rows: repeat(4, 330px); 
+}
 article{
     align-items: center;
     background-color:  burlywood;
@@ -240,20 +247,9 @@ p{
     vertical-align: middle;
     line-height: 45px;
 }
-
-
-
-@media (max-width: 575px){
-    .narvar, .actions{
-        display: none;
-    }
-h1{
-    font-size:30px ;
+.form{
+    align-items: center;
 }
-main{
-    margin-top: 130px;
-}
-body{
 
 }
 /** dispositivos pequeños en vista landscape (horizontal) */
