@@ -4,6 +4,27 @@
  * Copyright 2011-2022 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ .imagen15{
+width: 200px;
+height: 150px;
+overflow: hidden;
+margin: 20px;
+ }
+.imagen15{
+width: 400px;
+height: 400px;
+transition: .5s;
+object-fit: cover;
+}
+
+img:hover{
+
+transform: scale(1.5);
+
+
+}
+
+
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
